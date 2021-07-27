@@ -34,19 +34,22 @@ $domande = [
 <body>
 
     <header>
-    <div class="container d-flex header align-items-center">
+    <div class="d-flex header align-items-center mt-2 mx-3 mb-3">
             <img src="img\download.png" alt="">
-            <a href="#"> Privacy e termini</a>
+            <a class="termini mx-3 text-decoration-none" href="#"> Privacy e termini</a>
     </div>
 
     <div>
-        <ul class="titles">
-            <li>Introduzione</li>
-            <li>Norme sulla privacy</li>
-            <li>Termini di servizio</li>
-            <li>Tecnologie</li>
-            <li>Domande frequenti</li>
+        <ul class="titles d-flex flex-row bd-highlight mx-3 ">
+            <li> <a class="title text-decoration-none mt-3" href="#">Introduzione</a> </li>
+            <li> <a class="title text-decoration-none mt-3" href="#">Norme sulla privacy</a></li>
+            <li> <a class="title text-decoration-none mt-3" href="#">Termini di servizio</a></li>
+            <li> <a class="title text-decoration-none mt-3" href="#">Tecnologie</a></li>
+            <li> <a class="title text-decoration-none mt-3" href="#">Domande frequenti</a></li>
         </ul>
+    </div>
+    <div class="linea">
+
     </div>
     </header>
 
