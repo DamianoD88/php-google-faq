@@ -56,15 +56,12 @@ $domande = [
     
     <main>
          <div class="container">
-            <?php
-                foreach ($domande as $question) {?>
-                    <div>
-                        <strong><?php echo $question['$question'] ?></strong>
-                    </div>
-                    <div>
-                        <?php echo ($question['answer']) ?>
-                    </div>
-               <?php } ?>
+            <?php foreach ($domande as $domanda){ ?>
+                <h2><?php echo $domanda['$question']?></h2>
+                <p><?php echo $domanda['$answer']?></p>
+
+            <?php } ?>
+                    
             
         </div> 
     </main>
